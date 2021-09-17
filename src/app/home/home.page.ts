@@ -6,7 +6,15 @@ import { Component } from '@angular/core';
   styleUrls: ['home.page.scss'],
 })
 export class HomePage {
+  nombre : String;
+  clave  : String;
 
-  constructor() {}
+
+
+  constructor() {
+    this.nombre = "Mario"
+    this.clave = "hola123"
+
+  }
 
 }
